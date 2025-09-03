@@ -1,0 +1,143 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My first web page</h1>
+    <p>This is my first paragraph</p>
+    <h2> new heading </h2>
+
+    <ul>
+        <li>CSE</li>
+        <li>CSE AIML</li>
+        <li>CSE DS</li>
+        <li>CSE IOT</li>
+        <li>CS</li>
+    </ul>
+
+    <ol>
+        <li>
+            <ul>
+                <li>Data Science</li>
+                <li>Cloud</li>
+                <li>Networking</li>
+            </ul>
+        </li>
+    </ol> --> 
+
+    <!-- <dl>
+        <dt>CSS 
+            <dd>CSS</dd>
+        </dt>
+    </dl> 
+    <img src ="./Assets/rphoto.jfif"  width="300" height="300" alt ="My image">
+
+    <video controls><source src="./Assets/rvideo.mp4"></video>
+
+    <ul type="none">
+        <li><a href="register.html">REGISTER</a></li>
+        <li><a href="profile.html">PROFILE</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+    </ul>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+     body {
+      font-family: Arial, sans-serif;
+      background-color: black; /* 🔲 Fullscreen black background */
+      overflow-x: hidden;
+      color: white; /* Optional: makes text visible on black */
+    }
+    .fullscreen-video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      display: block;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    ul[type="none"] {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    ul[type="none"] li {
+      margin: 5px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fullscreen Video -->
+  <video autoplay muted loop class="fullscreen-video">
+    <source src="./Assets/rvideo.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="content">
+    <h1>My first web page</h1>
+    <p>This is my first paragraph</p>
+    <h2>New heading</h2>
+
+    <ul>
+      <li>CSE</li>
+      <li>CSE AIML</li>
+      <li>CSE DS</li>
+      <li>CSE IOT</li>
+      <li>CS</li>
+    </ul>
+
+    <ol>
+      <li>
+        <ul>
+          <li>Data Science</li>
+          <li>Cloud</li>
+          <li>Networking</li>
+        </ul>
+      </li>
+    </ol>
+
+    <dl>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <ul type="none">
+      <li><a href="register.html">REGISTER</a></li>
+      <li><a href="profile.html">PROFILE</a></li>
+      <li><a href="login.html">LOGIN</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
