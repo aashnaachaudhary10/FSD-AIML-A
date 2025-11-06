@@ -1,0 +1,14 @@
+.cart-section {
+  border-left: 2px solid #ccc;
+  padding: 2rem;
+  width: 300px;
+  flex: 1;
+  background-color: #fdf3f8;
+}
+.cart-section ul {
+  list-style: none;
+  padding: 0;
+}
+.cart-section li {
+  margin: 0.5rem 0;
+}

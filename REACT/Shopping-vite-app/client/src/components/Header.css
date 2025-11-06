@@ -1,0 +1,14 @@
+.header {
+  background-color: #1e1e2f;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+.cart-info {
+  font-weight: bold;
+  background-color: #ff007f;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+}
